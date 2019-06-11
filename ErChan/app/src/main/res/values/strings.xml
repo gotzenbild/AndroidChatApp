@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ErChan</string>
+    <string name="TextToSend_Label">Введите текст</string>
+    <string name="ButtonToSend_Label">Отправить</string>
+    <string name="TextLogin_Label">Логин</string>
+    <string name="TextPassword_Label">Пароль</string>
+    <string name="ButtonToReg_Label">Регестрация</string>
+    <string name="ButtonToLog_Label">Вход</string>
+    <string name="ButtonForLogToChat_Label">Открыть чат</string>
+    <string name="ButtonForRegChat_Label">Создать чат</string>
+    <string name="AddChat_Label">Добавить чат</string>
+    <string name="LogChatLog_Label">Название чата</string>
+
+
+    <string-array name="screen_array">
+        <item>Screen 1</item>
+        <item>Screen 2</item>
+        <item>Screen 3</item>
+    </string-array>
+</resources>

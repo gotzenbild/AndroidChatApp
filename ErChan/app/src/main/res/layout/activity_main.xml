@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ErChan"
+            android:textSize="40dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:shadowColor="#ff0000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            style="@style/MyTextView"
+            />
+
+        <EditText
+            android:id="@+id/TextLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextLogin_Label"
+
+            />
+        <EditText
+            android:id="@+id/TextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/TextPassword_Label"
+            />
+
+        <Button
+            android:id="@+id/ButtonForReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/ButtonToReg_Label" />
+
+        <Button
+            android:id="@+id/ButtonForLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/ButtonToLog_Label" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

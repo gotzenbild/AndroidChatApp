@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectChatActiviti">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/LogChatLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/LogChatLog_Label"
+
+            />
+        <!--android:paddingTop="200dp"-->
+
+        <EditText
+            android:id="@+id/LogChatPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль чата"
+            />
+
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите имя для чата"
+
+            />
+
+        <!--android:paddingTop="40dp"-->
+        <Button
+            android:id="@+id/ButtonForLogToChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Войти в чат" />
+
+
+        <Button
+            android:id="@+id/ButtonForRegChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/ButtonForRegChat_Label" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "648573837827",
+    "firebase_url": "https://erchan-73f87.firebaseio.com",
+    "project_id": "erchan-73f87",
+    "storage_bucket": "erchan-73f87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648573837827:android:3f2d30b1ffd63a56",
+        "android_client_info": {
+          "package_name": "com.example.erchan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648573837827-f2i6efgf0ttp1l1t8o2dm4h51u2lvq16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.erchan",
+            "certificate_hash": "47a1df96ae47af4d58eda3d6e308b9b168820b0c"
+          }
+        },
+        {
+          "client_id": "648573837827-vuostjn1hsdh8ts06kuc3c71vp7n92tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdAPq78dY59CIqZuTisR_RerAuV4lOdX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648573837827-vuostjn1hsdh8ts06kuc3c71vp7n92tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
